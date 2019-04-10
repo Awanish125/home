@@ -1,0 +1,42 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+		.container
+		{
+			position: absolute;
+			top:50%;
+			left:50%;
+			width: auto;
+			transform: translate(-50%,-50%);
+			text-align: center;
+		}
+		h1{
+		
+			animation:rishumove .6s linear;
+			animation-fill-mode: forwards;
+		}
+		@keyframes rishumove
+		{
+			0%{font-size: 0}
+			100%{font-size: 40px;}
+		}
+		a{
+			margin: 5px 0px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<h1>Product Management System</h1>
+	<nav>
+		<a href="contactform" class="btn btn-primary">New Entry</a>
+		<a href="product" class="btn btn-primary">View all</a>
+		<a href="product" class="btn btn-primary">update</a>
+	</nav>
+</div>
+</body>
+</html>
